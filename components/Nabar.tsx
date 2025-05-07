@@ -12,7 +12,7 @@ function Navbar() {
   const about = pathName === "/about";
 
   return (
-    <div
+    <nav
       className={`flex gap-16 items-center px-4 py-4 bg-[#D9D9D91F] ${able.className}`}
     >
       <Image src={logo} alt="logo" />
@@ -24,7 +24,7 @@ function Navbar() {
           About
         </Link>
       </ul>
-    </div>
+    </nav>
   );
 }
 
