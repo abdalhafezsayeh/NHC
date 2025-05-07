@@ -12,9 +12,9 @@ function DetailsProduct({ dataProduct }: { dataProduct: Product }) {
         <Image
           src={dataProduct.images[0]}
           alt={dataProduct.brand}
-          width={300}
-          height={192}
-          className="h-60 w-full rounded mb-2 p-2"
+          width={200}
+          height={200}
+          className="rounded mb-2 p-2 m-auto"
         />
         <div className="flex flex-col-reverse lg:flex-row lg:items-center justify-between px-2 py-4">
           <ul className="leading-7">
